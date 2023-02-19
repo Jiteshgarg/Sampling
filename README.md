@@ -1,4 +1,12 @@
 # Sampling
+Assignment on Sampling for UCS654
+
+## Description
+This assignment has a dataset regarding credit cards.
+It is a binary classification problem.
+The dataset is imbalanced and hence it is balanced by using random over sampling technique.
+After balancing the dataset, different sampling techniques are used and 5 different models have been applied to get the accuracy on testing set.
+
 This file gives accuracy score for different sampling techniques(on inbalanced data) trained on different models as given below
 <ul>
     <li>
@@ -43,7 +51,7 @@ This file gives accuracy score for different sampling techniques(on inbalanced d
     </li>
 </ul>
 <h1>Result table</h1>
-|<table>
+ <table>
     <tr>
         <td>Model\Sampling</td>
         <td>Under sampling</td>
@@ -96,3 +104,13 @@ This file gives accuracy score for different sampling techniques(on inbalanced d
 
 <h3>Note:-accuracy value may be inaccurate or accurate as depicted in first half too</h3>
 <h6>For reference, csv file is added into this repo too but in python file its taken from original git link only</h6>
+
+## Discussion
+From the table, we can conclude that we achieve maximum accuracy when we apply Random Forest Algorithm upon taking samples using the Simple Over Sampling technique.
+
+## Written By
+Name : Jitesh Garg
+  
+Roll No. : 102017180
+
+Sub-Group: 3CS8
