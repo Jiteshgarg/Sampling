@@ -103,7 +103,7 @@ This file gives accuracy score for different sampling techniques(on inbalanced d
 <h6>For reference, csv file is added into this repo too but in python file its taken from original git link only</h6>
 
 ## Discussion
-From the table, we can conclude that we achieve maximum accuracy when we apply Random Forest Algorithm upon taking samples using the Over Sampling technique.
+From the table, we can conclude that we achieve maximum accuracy when we apply Random Forest Algorithm.
 
 ## Written By
 Name : Jitesh Garg
